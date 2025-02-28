@@ -1,0 +1,106 @@
+footer {
+    background-color: black;
+    color: #ddd;
+    padding: 50px 0;
+    font-size: 16px;
+    height: 200px;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 40px;
+}
+
+/* Bên trái: About Us + Thanh nhập email */
+.footer-left {
+    flex: 1;
+    margin-right: 40px;
+}
+
+/* Tiêu đề */
+.footer-left h3,
+.footer-links h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #ff4081;
+}
+
+/* Nội dung About Us */
+.footer-left p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+/* Thanh nhập email */
+.footer-subscribe {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.footer-subscribe input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.footer-subscribe button {
+    padding: 10px 15px;
+    background-color: #ff4081;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.footer-subscribe button:hover {
+    background-color: #e03670;
+}
+
+/* Bên phải: Các danh mục */
+.footer-right {
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+}
+
+/* Các danh mục điều hướng */
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 8px;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.footer-links ul li a:hover {
+    color: #ff4081;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    text-align: left;
+    margin-top: 30px;
+    padding-top: 15px;
+    border-top: 1px solid #444;
+    font-size: 14px;
+    padding-left: 50px;
+}
+.logo1{
+    display:flex;
+    align-items: center;
+}
+.logo1 img {
+    margin-right: 10px; 
+}

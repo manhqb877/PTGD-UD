@@ -1,0 +1,67 @@
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 15px 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Nhóm logo và chữ "Chefify" */
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Khoảng cách giữa logo và chữ */
+}
+
+.logo-img {
+    width: 40px; /* Điều chỉnh kích thước logo */
+    height: auto;
+}
+
+.logo-text {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ff4d79;
+}
+
+/* Cải thiện input tìm kiếm */
+#searchInput {
+    width: 250px; /* Tăng chiều rộng */
+    height: 30px; /* Tăng chiều cao */
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ff4d79;
+    border-radius: 20px;
+    outline: none;
+}
+
+#searchInput::placeholder {
+    color: #999;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+
+.recipe-box {
+    background-color: #ff4d79;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+.user-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}

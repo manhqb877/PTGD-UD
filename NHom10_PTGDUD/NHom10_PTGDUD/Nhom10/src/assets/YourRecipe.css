@@ -1,0 +1,128 @@
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.avatar {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+
+.user-details h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.subscribe-share {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.share-btn {
+    background-color: #e91e63;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav-tabs {
+    display: flex;
+    gap: 20px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.nav-tabs span {
+    cursor: pointer;
+    padding: 5px;
+}
+
+.nav-tabs .active {
+    color: #e91e63;
+    border-bottom: 3px solid #e91e63;
+}
+
+.recipe-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 thẻ mỗi hàng */
+    gap: 20px;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.recipe-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+    width: 100%;
+    overflow: hidden; 
+}
+
+.recipe-image {
+    width: 200px; 
+    height: 150px; 
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.recipe-card h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0;
+    padding: 0 10px;
+}
+
+.recipe-card p {
+    color: #ff4081;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+@media (max-width: 1024px) {
+    .recipe-grid {
+        grid-template-columns: repeat(3, 1fr); 
+    }
+}
+
+@media (max-width: 768px) {
+    .recipe-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .recipe-grid {
+        grid-template-columns: repeat(1, 1fr); 
+    }
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin: 20px 0;
+}
+
+.pagination button {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #f0f0f0;
+}
+
+.pagination .active {
+    background: #e91e63;
+    color: white;
+}
