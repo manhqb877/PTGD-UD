@@ -1,0 +1,4 @@
+ul, li{
+    display: flex;
+    margin: 10px;
+}
