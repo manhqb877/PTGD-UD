@@ -23,7 +23,7 @@ export default function Sidebar() {
             borderRadius: '50%',
             background: 'linear-gradient(to right, #ec4899, #8b5cf6, #3b82f6)'
           }} />
-          <h5 className="mb-0 fw-bold">Logo</h5>
+          <h5 className="mb-0 fw-bold" style={{fontSize : '15px'}}>Hoàng Nguyễn Đức Mạnh</h5>
         </div>
 
         
