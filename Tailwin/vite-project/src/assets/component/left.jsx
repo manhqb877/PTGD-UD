@@ -30,7 +30,7 @@ export default function Sidebar() {
         <ul className="nav flex-column">
           <li className="nav-item mb-2">
             <a href="#" className="nav-link active text-white bg-pink rounded d-flex align-items-center px-3 py-2" style={{ backgroundColor: '#ec4899' }}>
-              <HouseFill className="me-2" /> Dashboard
+              <HouseFill className="me-2" />  Dashboard
             </a>
           </li>
           <li className="nav-item mb-2">
